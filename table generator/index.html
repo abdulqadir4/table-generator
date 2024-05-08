@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Table Generator</h2>
+    <div class="inputs">
+      <label for="rows">Rows:</label>
+      <input type="number" id="rows">
+      <label for="cols">Columns:</label>
+      <input type="number" id="cols">
+      <button onclick="generateTable()">Generate Table</button>
+    </div>
+    <div id="tableContainer"></div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
